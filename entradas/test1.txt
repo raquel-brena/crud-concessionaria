@@ -1,0 +1,13 @@
+create-concessionaria IMD_SA 11.111.111/0001-11 0
+create-concessionaria IMD_SA 11.111.111/0001-11 0
+add-car IMD_SA Toyota 100000 9BRBLWHEXG0107721 2019 gasolina
+add-truck IMD_SA Scania 700000 7BRBLQHEXG0208811 2010 perigosa
+add-motorcycle IMD_SA Honda 50000 7BRBLQHEXG0208123 2022 clássico
+add-motorcycle IMD_SA Honda 70000 7BRBLQaHEXG0208123 2022 clássico
+add-motorcycle IMD_SA Honda 50000 7BRBLQHEXG0208123 2022 clássico
+remove-vehicle 7BRBLQHEXG0208123
+search-vehicle 9BRBLWHEXG0107721
+list-concessionaria IMD_SA
+raise-price IMD_SA 10
+save-concessionaria IMD_SA
+load-concessionaria IMD_SA.txt
